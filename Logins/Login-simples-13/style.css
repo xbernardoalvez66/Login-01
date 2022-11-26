@@ -1,0 +1,148 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #fff;
+font-family: 'Montserrat',sans-serif;
+
+
+}
+
+body{
+
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(bg.jpeg);
+background-size: cover;
+position: relative;
+
+
+}
+
+body:before{
+
+content: "";
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+height: 100%;
+
+width: 100%;
+
+background-image:linear-gradient(to top, #003492, #42A5F5);
+
+z-index: -1;
+
+opacity: .9%;
+
+
+}
+
+img{
+
+height: 80px;
+width: 80px;
+border-radius: 50%;
+margin-bottom: 20px;
+box-shadow: 0 3px 10px 0 #19191970;
+background-color: #fff;
+
+}
+
+.login{
+
+text-align: center;
+width: 280px;
+
+}
+
+.bottom{
+position: absolute;
+bottom: 20px;
+
+
+}
+
+input, button, p, a, .group i {
+
+font-size: 13px;
+font-weight: 600;
+
+}
+
+input, .group, i, input::placeholder{
+
+color: #555;
+
+}
+
+input, button{
+
+width: 100%;
+border-radius: 20px;
+border: 0;
+
+
+}
+
+input{
+
+padding: 12px 20px 12px 40px;
+
+}
+button{
+
+padding: 12px 0 ;
+background-color: #252525;
+margin-bottom: 20px;
+margin-top: 10px;
+cursor: pointer;
+
+}
+
+button i {
+
+margin-right: 10px;
+
+
+}
+.group {
+
+position: relative;
+margin-bottom: 10px;
+
+
+}
+
+
+.group i {
+
+position: absolute;
+top: 14px;
+left: 20px;
+
+}
+
+h2{
+
+    margin-bottom: 30px;
+
+}
+
+input:focus, button:focus{
+
+outline: 0;
+
+
+
+}
+
+

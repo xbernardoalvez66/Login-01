@@ -1,0 +1,110 @@
+body{
+ 
+    background-image:url(img.123.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Numans",sans-serif;
+}
+
+.container {
+
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    
+    height: 450px;
+    margin-top: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 95rem;
+
+}
+
+.card-body{
+
+    padding: 1.25rem;
+
+} 
+
+.card-header {
+
+    padding: .75rem 1.25rem;
+    background-color: rgba(0, 0, 0, .01);
+
+}
+
+.card-header h3 {
+
+color: #fadf4a;
+font-size: 35px;
+display: flex;
+flex-wrap: row wrap;
+align-items: center;
+justify-content: center;
+margin-bottom: 30px;
+
+}
+
+.card-footer {
+
+    padding: .75rem 1.25rem;
+    background-color: rgba(0, 0, 0, .01);
+
+}
+
+.remember {
+
+color: white;
+
+}
+
+.remember input {
+
+width:20px ;
+height: 20px;
+
+} 
+
+input {
+
+    width: 100%;
+    margin-bottom: 21px;
+    font-size: inherit;
+    height: calc(2.25rem + 2px);
+    border: 1px solid #ced4da;
+    border-radius:.25rem ;
+}
+
+.btn {
+
+border: 1px solid transparent;
+padding: .375rem .75rem;
+line-height: 1.5;
+border-radius: .25rem;
+color: black;
+background-color: #fadf4a;
+width: 100%;
+margin-left: 260px;
+margin-bottom: 0px;
+
+}
+
+.login_btn:hover {
+
+color: black;
+background-color: white;
+
+}
+
+.link {
+
+   color: white;
+   margin-bottom: 10px;
+
+}
